@@ -54,7 +54,7 @@
             }
     
             ExcelDownloader excelDownloader = new ExcelDownloader();
-            ExcelDownloader.excelDownload(demoList, DemoVO.class, response, "demoExcel", false);
+            excelDownloader.excelDownload(demoList, DemoVO.class, response, "demoExcel", false);
             ...
         }
     }
